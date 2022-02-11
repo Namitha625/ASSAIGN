@@ -23,7 +23,7 @@ class student
     this.phno=in.nextLong();
     System.out.println("CGPA:");
     this.cgpa=in.nextFloat();
-    System.out.println("----------------------------------------------------");
+    
     }
    student()
   {
@@ -50,11 +50,11 @@ class studentTen
     r=s[i].cgpa; 
     l=i;
    }
-   if((s[i].name.compareTo("ANU"))==0)//finding name
+   if((s[i].name.compareTo("ANU"))==0)
   {
    n=i;
    }
-  if(s[i].age<o)//younger one
+  if(s[i].age<o)
   {
    o=s[i].age;
    a=i;
